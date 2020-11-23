@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightingale Student</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+
+    <div class="container">
+        <header>
+            <img src="images/CARSModernText.png" alt="Nightingale Home">
+            
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+                
+                <ul class = "show-desktop hide-mobile" id="nav">
+                    
+                    <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
+                    <li><a href="#">About Us</a></li>
+                    
+                </ul> 
+            </nav>
+        </header>
+
+        <section>
+            <img src="images/CARSModern.png" alt="logo graphic" class="logo">
+
+            <h1>A database for all your studying needs</h1>
+            <p class="subhead">Students can upload files and study sets for the use of all students!</p>
+
+            <img src="images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+
+
+        </section>
+    </div>
+
+    <div class="blue-container">
+
+        <div class="container">
+            <ul>
+            <li>
+                <img src="images/icon-1.svg" alt="Calendar Icon">
+                <p>Something about how our system works with students and maintaining structure</p>
+            </li>
+
+            <li>
+                <img src="images/icon-2.svg" alt="Calendar Icon">
+                <p>Something about how our system works with students and maintaining structure</p>
+            </li>   
+
+            <li>
+                <img src="images/icon-3.svg" alt="Calendar Icon">
+                <p>Something about how our system works with students and maintaining structure</p>
+            </li>
+
+            </ul>
+        </div>
+
+
+
+
+
+    </div>
+
+    <div class="gray-container">
+        <div class="container">
+            <ul>
+
+                <li>
+                    <figure>
+                        <img src="images/user1.png" alt="Quote 1">
+                        <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum repudiandae fugit soluta ab, nostrum voluptates voluptatibus a iste deleniti ut tempora suscipit atque eligendi quos necessitatibus corrupti cupiditate maxime porro!</blockquote>
+                        <figcaption>
+                             -Marxism Is Great 
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                        <img src="images/user2.png" alt="Quote 1">
+                        <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum repudiandae fugit soluta ab, nostrum voluptates voluptatibus a iste deleniti ut tempora suscipit atque eligendi quos necessitatibus corrupti cupiditate maxime porro!</blockquote>
+                        <figcaption>
+                             -Marxism and Lenin are Great 
+                        </figcaption>
+                    </figure>
+                </li>
+
+            </ul>
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Join the organization!</h2>
+        <a href="#" class="cta">Get Started for Students and Teachers</a>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                    <img src="images/CARSModern.png" class="logo" alt="footer logo">
+                </a>    
+                    <p class="address">CARS is a school sponsored organization which will not accept any thing that goes in violation with the code and regulation of the school<br>Hosted on GitHub Pages</p>
+                
+                <ul class="footer-links">
+                    <li><a href="#">Rules and Regulations</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+
+            
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+
+        menu.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+
+    </script>
+
+
+
+</body>
+</html>
