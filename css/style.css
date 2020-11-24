@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #473880;
+    background-color: #181526;
 }
 
 p, blockquote {
@@ -124,40 +124,21 @@ h2 {
 }
 
 .footer-container {
-    width: 100%;
-    background-color: #66025e;
+    
+    background-color: #350031;
     color: black;
     padding: 3em 0;
     border-top-right-radius: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    ;
     
 }
 
-.footer-container .container {
-    
-}
 
-.footer-container:before {
-    content: "";
-    width: 40px;
-    height: 40px;
-    background-color: lightgrey;
-    position: absolute;
-    top: -39px;
-    left: 0;
-    z-index: -2;
-}
 
-.footer-container:after {
-    content: "";
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    position: absolute;
-    z-index: -1;
-    top: -80px;
-    left: 0;
-    border-radius: 50%;
-}
+
 
 ul.footer-links {
     margin: 0 auto;
@@ -378,6 +359,7 @@ nav ul li a:hover {
 {
     display: table-cell;
     vertical-align: middle;
+    
 }
 
 input, button
@@ -396,7 +378,7 @@ input, button
     top: 50%;
     left: 0;
     right: 0;
-    width: 550px;
+    width: 1500px;
     padding: 35px;
     margin: -83px auto 0 auto;
     background-color: #ff7575;
