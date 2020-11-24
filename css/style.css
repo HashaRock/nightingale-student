@@ -2,6 +2,8 @@
 
 body {
     margin: 0;
+    padding: 0;
+    background-position: center;
     font-family: 'Montserrat', sans-serif;
     background-color: #181526;
 }
@@ -12,9 +14,14 @@ p, blockquote {
 } 
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+li {
+    display: inline;
 }
 
 .container {
@@ -32,6 +39,7 @@ ul {
     background-color: rgb(98, 8, 216);
 
 }
+
 
 .logo {
     width: 130px;
@@ -515,4 +523,97 @@ button span:before, button span:after
   border-radius: 4px;
   box-shadow: 0 10px 20px -5px rgba(255, 117, 117, 0.86);
   z-index: 125;
+}
+.signup {
+
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: rgb(18, 22, 55);
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    align-content: center;
+
+}
+
+.signup h1 {
+
+    color: #ffffff;
+    margin-bottom: 30px;
+
+
+}
+
+.input-box {
+
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+    color: white;
+
+
+
+}
+
+button {
+
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px ;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.signup-btn {
+
+    background-color: #1c8adb;
+
+
+}
+
+.twitter-btn {
+    background-color: #21afde;
+
+}
+a {
+
+    text-decoration: none;
+
+
+}
+
+hr {
+
+    margin-top: 20px;
+    width: 80px;
+}
+
+.or {
+
+    background: white;
+    width: 30px;
+    margin: -19px auto 10px;
+
+}
+
+.userimage {
+
+    width: 70px;
+    margin-top: -50px;
+
+}
+
+.whitetextsignup {
+
+    color: white;
+
 }
